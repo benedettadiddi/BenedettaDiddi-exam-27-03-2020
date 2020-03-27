@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+.main-container {
+    width: 1024px;
+    height: 768px;
+
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+
+    border: 2px solid red;
+}
+
+.main-container-box-top {
+    margin: 20px;
+}
+
+img {
+     margin: 8px;
+}
+
+.main-container-box-bottom {
+    margin: 8px 20px 0px 20px;
+}
+
+img {
+     margin: 8px;
+}
+

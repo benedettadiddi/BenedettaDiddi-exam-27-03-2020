@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ff5e43;
+}
+
+h1 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+
+    color: #ff5e43;
+}
+
+header {
+    height: 80px;
+    padding: 10px;
+
+    background-color: white;
+
+    line-height: 10px;
+}
+
+.card {
+    width: 300px;
+    height: 500px;
+
+    background-color: #dfedf1;
+    text-align: center;
+    
+    margin: 60px auto;
+}
+    
+
+.card-section {
+    height: 420px;
+    position: relative;
+}
+
+img {
+    position: relative;
+    top: 105px;
+}
+
+button {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    width: calc(100% - 80px);
+
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+
+    padding: 10px;
+    background-color: #ff5e43;
+}
+
+
